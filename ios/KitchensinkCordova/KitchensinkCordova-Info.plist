@@ -43,7 +43,7 @@
 		</dict>
 	</dict>
 	<key>CFBundleIdentifier</key>
-	<string>org.jboss.aerogear.KitchensinkCordova</string>
+	<string>org.jboss.as.quickstarts.kitchensinkcordova.KitchensinkCordova</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
