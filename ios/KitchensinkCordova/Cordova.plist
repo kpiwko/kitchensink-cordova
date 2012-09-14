@@ -24,7 +24,7 @@
 	<true/>
 	<key>ExternalHosts</key>
 	<array>
-		<string>poh5-aerogear.rhcloud.com</string>
+		<string>html5-aerogear.rhcloud.com</string>
 	</array>
 	<key>Plugins</key>
 	<dict>

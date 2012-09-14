@@ -36,6 +36,13 @@
 
 @synthesize window, viewController;
 
++ (void)initialize {
+    // Set user agent
+    NSDictionary *dictionnary = [[NSDictionary alloc] initWithObjectsAndKeys:@"Kitchensink Cordova Webview iOS", @"UserAgent", nil];
+    [[NSUserDefaults standardUserDefaults] registerDefaults:dictionnary];
+    [dictionnary release];
+}
+
 - (id) init
 {	
 	/** If you need to do any extra app-specific initialization, you can do it here
